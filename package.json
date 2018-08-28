@@ -2,6 +2,7 @@
   "name": "folding-panel",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://kanterjoe.github.io/folding-panel",
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
