@@ -1,0 +1,35 @@
+.sidebar.open {
+
+}
+.sidebar.closed {
+
+}
+.sidebar {
+    background-color: #f7f7f7;
+    /*transition: .5s;*/
+    transform-origin: 0 0 0;
+    perspective: 100px;
+    width:100%;
+    position: absolute;
+    top: 0px;
+    /*box-shadow: grey 0px 0px 4px 0px;*/
+
+}
+
+/*.base, .sidebar{transition: .5s}*/
+.base.open{}
+.base.closed{}
+.base {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    /*bottom: 87px;*/
+    box-shadow: grey 0px 0px 4px 0px;
+}
+.wrapper {
+    width: 100%;
+    height:100%;
+    padding: 0;
+    margin: 0;
+}
